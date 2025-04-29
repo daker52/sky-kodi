@@ -1,0 +1,16 @@
+<addon id="plugin.video.sdilejcz"
+       name="Movie Show CZ/SK"
+       version="1.0.0"
+       provider-name="SkylowCZE">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Přehrávání filmů ze sdilej.cz</summary>
+        <description>Plugin pro Kodi umožňující přehrávání sdílených videí ze sdilej.cz</description>
+        <platform>all</platform>
+    </extension>
+</addon>
