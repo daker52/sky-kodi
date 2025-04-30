@@ -1,6 +1,0 @@
-<settings>
-    <category label="Nastavení přihlášení">
-        <setting id="sdilej_user" type="text" label="Uživatelské jméno nebo email" default="" />
-        <setting id="sdilej_pass" type="text" label="Heslo" default="" option="hidden" />
-    </category>
-</settings>
