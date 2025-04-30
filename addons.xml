@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+    <addon id="plugin.video.yawsp" name="Webshare Kodi Plugin" version="1.0.0" provider-name="daker52">
+        <requires>
+            <import addon="xbmc.python" version="2.26.0"/>
+        </requires>
+        <extension point="xbmc.addon.repository" name="Webshare Kodi Repo">
+            <info compressed="false">https://daker52.github.io/sky-kodi/addons.xml</info>
+            <checksum>https://daker52.github.io/sky-kodi/addons.xml.md5</checksum>
+            <datadir>https://daker52.github.io/sky-kodi/zips/</datadir>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+            <summary>Webshare.cz přehrávač pro Kodi</summary>
+            <description>Plugin umožňuje přehrávat obsah z Webshare.cz ve vašem Kodi.</description>
+            <platform>all</platform>
+        </extension>
+    </addon>
+</addons>
